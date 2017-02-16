@@ -1,2 +1,2 @@
-# WataugaRobotics.github.io
+# wataugarobotics.github.io
 Club Webpage
