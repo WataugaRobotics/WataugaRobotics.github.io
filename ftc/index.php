@@ -4,6 +4,6 @@
 		<title>redirect...</title>
 	</head>
 	<body>
-		<?php header('Location: https://jacobcw00.wixsite.com/wataugarobotics5881'); exit; ?>
+		<script>window.location = "http://new-website.com";</script>
 	</body>
 </html>
