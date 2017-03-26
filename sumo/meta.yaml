@@ -5,17 +5,16 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>VEX</title>
+		<title></title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (picnic, custom) -->
 		<link href="/media/css/picnic.min.css" rel="stylesheet" type="text/css"/>
 		<link href="/media/css/custom.css" rel="stylesheet" type="text/css"/>
-		
-		<!-- JS (fontawesome, custom) -->
+
+		<!-- JS (fontawesome) -->
 		<script src="https://use.fontawesome.com/bb5602ef6a.js"></script>
-		<script src="/media/js/custom.js"></script>
-			</head>
+	</head>
 	<body>
 		<!-- Navigation -->
 		<nav class="main">
@@ -36,13 +35,14 @@
 			</div>
 		</nav>
 		<main class="content">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/0t2zstQ84Tw" frameborder="0" allowfullscreen></iframe>
+									extends: sumo.j2
+default_block: content
 
 		</main>
 		<footer>
-			<center><a href="https://github.com/wataugarobotics/wataugarobotics">
-					<h5>&#169; 2017 Watauga Robotics [MIT License]</h5>
-			</a></center>
+			<center><a href="https://github.com/wataugarobotics/wataugarobotics"><h6>
+					&#169; 2017 Watauga Robotics [MIT License]
+			</h6></a></center>
 		</footer>
 	</body>
 </html>

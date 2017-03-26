@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>VEX</title>
+		<title>Tournament</title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (picnic, custom) -->
@@ -29,16 +29,37 @@
 			<label for="bmenu" class="burger pseudo button">&#8801;</label>
 
 			<div class="menu">
-				<a href="/ftc/index.html" class="pseudo button">FTC</a>
-				<a href="/vex/index.html" class="pseudo button">VEX</a>
+				<div class="dropdown">
+			    	<button class="dropbtn pseudo button" onclick="drop()">
+						Teams <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content" id="teamDrop">
+						<a href="/ftc/index.html" class="pseudo button">FTC</a>
+						<a href="/vex/index.html" class="pseudo button">VEX</a>
+					</div>
+				</div>
 				<a href="/sumo/index.html" class="pseudo button">Sumo</a>
 				<a href="https://github.com/wataugarobotics" class="pseudo button"><i class="fa fa-github" style="color:white"></i> GitHub</a>
 			</div>
 		</nav>
 		<main class="content">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/0t2zstQ84Tw" frameborder="0" allowfullscreen></iframe>
-
-		</main>
+			<div class="sumo flex five">
+    <aside class="subnav full fifth-1000">
+        <div class="flex one">
+            <a href="/sumo/index.html" class="button stack">Home</a>
+            <a href="/sumo/bracket.html" class="button stack">Tournament</a>
+        </div>
+    </aside>
+    <div class="subtitle full three-fifth-1000">
+        <center><h1>
+            Tournament Stats
+        </center></div>
+    </div>
+    <div class="sumocontent full">
+         
+    </div>
+</div>
+					</main>
 		<footer>
 			<center><a href="https://github.com/wataugarobotics/wataugarobotics">
 					<h5>&#169; 2017 Watauga Robotics [MIT License]</h5>

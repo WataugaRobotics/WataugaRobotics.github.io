@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>VEX</title>
+		<title></title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (picnic, custom) -->
@@ -36,8 +36,7 @@
 			</div>
 		</nav>
 		<main class="content">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/0t2zstQ84Tw" frameborder="0" allowfullscreen></iframe>
-
+						 
 		</main>
 		<footer>
 			<center><a href="https://github.com/wataugarobotics/wataugarobotics">
