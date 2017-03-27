@@ -5,14 +5,16 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Home</title>
+		<title>Tournament</title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (material icons, materialize, custom) -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 		<link href="/media/css/custom.css" rel="stylesheet" type="text/css"/>
-			</head>
+		<link rel="stylesheet" type="text/css" href="/media/css/jquery.bracket.min.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://www.aropupu.fi/bracket/jquery-bracket/dist/jquery.bracket.min.css"/> -->
+	</head>
 	<body>
 		<!-- Navigation -->
 		<!-- team dropdown -->
@@ -57,9 +59,30 @@
 				    </li>
 				</ul>
 			</div>
-								</nav>
+			<div class="nav-content container">
+    <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="" target="_self" href="/sumo/">Home</a></li>
+        <li class="tab"><a class="active" target="_self" href="/sumo/bracket/">Stats</a></li>
+    </ul>
+</div>
+		</nav>
 		<main class="content container">
-			<h1>Welcome! [WIP]</h1>
+			<link rel="stylesheet" type="text/css" href="/media/css/jquery.bracket.min.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://www.aropupu.fi/bracket/jquery-bracket/dist/jquery.bracket.min.css"/> -->
+
+<script type="text/javascript" src="/media/js/jquery.bracket.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.aropupu.fi/bracket/jquery-bracket/dist/jquery.bracket.min.js"></script> -->
+<script type="text/javascript" src="/media/js/bracket.js"></script>
+
+<div class="row">
+    <div class="col s12">
+        <div id="minimal">
+            <div class="demo">
+            </div>
+        </div>
+    </div>
+</div>
+
 		</main>
 
 		<footer>
@@ -73,5 +96,8 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 		<script src="https://use.fontawesome.com/bb5602ef6a.js"></script>
 		<script type="text/javascript" src="/media/js/custom.js"></script>
-			</body>
+		<script type="text/javascript" src="/media/js/jquery.bracket.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.aropupu.fi/bracket/jquery-bracket/dist/jquery.bracket.min.js"></script> -->
+<script type="text/javascript" src="/media/js/bracket.js"></script>
+	</body>
 </html>
