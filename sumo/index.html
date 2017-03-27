@@ -8,56 +8,73 @@
 		<title>Sumo</title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
-		<!-- CSS (picnic, custom) -->
-		<link href="/media/css/picnic.min.css" rel="stylesheet" type="text/css"/>
+		<!-- CSS (material icons, materialize, custom) -->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 		<link href="/media/css/custom.css" rel="stylesheet" type="text/css"/>
-		
-		<!-- JS (fontawesome, custom) -->
-		<script src="https://use.fontawesome.com/bb5602ef6a.js"></script>
-		<script src="/media/js/custom.js"></script>
 			</head>
 	<body>
 		<!-- Navigation -->
-		<nav class="main">
-			<a href="/" class="brand">
-				<img class="logo" src="/media/images/wataugarobotics.png" alt=""/>
-				<span>Watauga Robotics</span>
-			</a>
-
-			<!-- responsive-->
-			<input id="bmenu" type="checkbox" class="show">
-			<label for="bmenu" class="burger pseudo button">&#8801;</label>
-
-			<div class="menu">
-				<a href="/ftc/index.html" class="pseudo button">FTC</a>
-				<a href="/vex/index.html" class="pseudo button">VEX</a>
-				<a href="/sumo/index.html" class="pseudo button">Sumo</a>
-				<a href="https://github.com/wataugarobotics" class="pseudo button"><i class="fa fa-github" style="color:white"></i> GitHub</a>
+		<!-- team dropdown -->
+		<ul id="teamDrop" class="dropdown-content">
+								    <li><a href="/ftc/5881.html">FTC 5881</a></li>
+		    <li><a href="/ftc/8190.html">FTC 8190</a></li>
+		    <li class="divider"></li>
+		    <li><a href="/vex/9321.html">VEX 9321</a></li>
+			
+		</ul>
+		<ul id="teamDrop-mobile" class="dropdown-content">
+					    <li><a href="/ftc/5881.html">FTC 5881</a></li>
+		    <li><a href="/ftc/8190.html">FTC 8190</a></li>
+		    <li class="divider"></li>
+		    <li><a href="/vex/9321.html">VEX 9321</a></li>
+			
+		</ul>
+		<!-- main -->
+		<nav class="nav-extended">
+			<div class="nav-wrapper container">
+				<a href="/" class="brand-logo">
+				    <!-- <img class="logo responsive-img" src="/media/images/wataugarobotics.png" alt=""/> -->
+				    Watauga Robotics
+				</a>
+				<a href="#" data-activates="mobile-nav" class="right button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#!" class="dropdown-button" data-activates="teamDrop">Teams<i class="material-icons right">arrow_drop_down</i></a></li>
+				    <li><a href="/sumo/index.html">Sumo</a></li>
+				    <li><a href="https://github.com/wataugarobotics">
+				        <i class="fa fa-github" style="color:white"></i> GitHub</a>
+				    </li>
+				</ul>
+				<ul class="right side-nav" id="mobile-nav">
+					<li><a href="#!" class="dropdown-button" data-activates="teamDrop-mobile">Teams<i class="material-icons right">arrow_drop_down</i></a></li>
+				    <li><a href="/sumo/index.html">Sumo</a></li>
+				    <li><a href="https://github.com/wataugarobotics">
+				        <i class="fa fa-github" style="color:white"></i> GitHub</a>
+				    </li>
+				</ul>
 			</div>
+			<div class="nav-content container">
+    <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="/sumo/index.html">Home</a></li>
+        <li class="tab disabled"><a href="/sumo/bracket.html">Stats</a></li>
+    </ul>
+</div>
 		</nav>
 		<main class="content">
-			<div class="sumo flex five">
-    <aside class="subnav full fifth-1000">
-        <div class="flex one">
-            <a href="/sumo/index.html" class="button stack">Home</a>
-            <a href="/sumo/bracket.html" class="button stack">Tournament</a>
-        </div>
-    </aside>
-    <div class="subtitle full three-fifth-1000">
-        <center><h1>
-            Competition Info
-        </center></div>
-    </div>
-    <div class="sumocontent full">
-        <script type="text/javascript">window.location="/sumo/info.html";</script>
+			<div class="container">
+							</div>
+		</main>
 
-    </div>
-</div>
-					</main>
 		<footer>
 			<center><a href="https://github.com/wataugarobotics/wataugarobotics">
-					<h5>&#169; 2017 Watauga Robotics [MIT License]</h5>
+					<h6>&#169; 2017 Watauga Robotics [MIT License]</h6>
 			</a></center>
 		</footer>
-	</body>
+
+		<!-- JS (jquery, materialize, fontawesome, custom) -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+		<script src="https://use.fontawesome.com/bb5602ef6a.js"></script>
+		<script type="text/javascript" src="/media/js/custom.js"></script>
+			</body>
 </html>
