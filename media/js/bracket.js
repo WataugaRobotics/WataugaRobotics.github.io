@@ -11,5 +11,6 @@ var minimalData = {
 
 $(function() {
     $('#minimal .demo').bracket({
-      init: minimalData /* data to initialize the bracket with */ })
-  })
+        init: minimalData /* data to initialize the bracket with */
+    })
+})
